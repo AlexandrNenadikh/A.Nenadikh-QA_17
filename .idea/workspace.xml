@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44e345c2-20de-4e62-b0b9-9bbc7d63c25f" name="Default Changelist" comment="" />
+    <list default="true" id="44e345c2-20de-4e62-b0b9-9bbc7d63c25f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/FirstSeleniumProject/src/test/java/OpenChromeBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/FirstSeleniumProject/src/test/java/OpenChromeBrowser.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/FirstSeleniumProject/.gradle/" />
     <ignored path="$PROJECT_DIR$/FirstSeleniumProject/build/" />
     <ignored path="$PROJECT_DIR$/FirstSeleniumProject/out/" />
+    <ignored path="$PROJECT_DIR$/A,Nenadykh HOME/.gradle/" />
+    <ignored path="$PROJECT_DIR$/A,Nenadykh HOME/build/" />
+    <ignored path="$PROJECT_DIR$/A,Nenadykh HOME/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +17,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/A,Nenadykh HOME">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/FirstSeleniumProject">
       <ProjectState />
     </projectState>
@@ -37,11 +45,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FirstSeleniumProject/src/test/java/OpenChromeBrowser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            <state>
+              <caret lean-forward="true" selection-end-line="35" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FirstSeleniumProject/src/test/java/OpenFirefoxBrowser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,6 +86,7 @@
       <list>
         <option value="$PROJECT_DIR$/FirstSeleniumProject/build.gradle" />
         <option value="$PROJECT_DIR$/FirstSeleniumProject/src/test/java/OpenChromeBrowser.java" />
+        <option value="$PROJECT_DIR$/FirstSeleniumProject/src/test/java/OpenFirefoxBrowser.java" />
       </list>
     </option>
   </component>
@@ -89,17 +110,6 @@
               <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="FirstSeleniumProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstSeleniumProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstSeleniumProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -108,11 +118,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548088078473" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548094835226" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -126,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.OpenChromeBrowser.chromeBrowserTest">
+  <component name="RunManager" selected="TestNG.OpenFirefoxBrowser.testeBaySearch">
     <configuration name="OpenChromeBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FirstSeleniumProject_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -149,8 +159,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OpenFirefoxBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstSeleniumProject_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OpenFirefoxBrowser" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenFirefoxBrowser.testeBaySearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstSeleniumProject_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OpenFirefoxBrowser" />
+      <option name="METHOD_NAME" value="testeBaySearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.OpenFirefoxBrowser.testeBaySearch" />
+        <item itemvalue="TestNG.OpenFirefoxBrowser" />
         <item itemvalue="TestNG.OpenChromeBrowser.chromeBrowserTest" />
         <item itemvalue="TestNG.OpenChromeBrowser" />
       </list>
@@ -170,35 +204,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OpenChromeBrowser_chromeBrowserTest - 2019.01.17 at 20h 38m 11s.xml">
+    <history-entry file="OpenChromeBrowser_chromeBrowserTest - 2019.01.21 at 19h 19m 12s.xml">
       <configuration name="OpenChromeBrowser.chromeBrowserTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenChromeBrowser - 2019.01.17 at 20h 40m 55s.xml">
-      <configuration name="OpenChromeBrowser" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenChromeBrowser - 2019.01.17 at 20h 43m 03s.xml">
-      <configuration name="OpenChromeBrowser" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenChromeBrowser - 2019.01.17 at 20h 44m 28s.xml">
-      <configuration name="OpenChromeBrowser" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenChromeBrowser_chromeBrowserTest - 2019.01.18 at 00h 09m 27s.xml">
+    <history-entry file="OpenChromeBrowser_chromeBrowserTest - 2019.01.21 at 19h 20m 42s.xml">
       <configuration name="OpenChromeBrowser.chromeBrowserTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenChromeBrowser - 2019.01.18 at 00h 10m 32s.xml">
-      <configuration name="OpenChromeBrowser" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenChromeBrowser_chromeBrowserTest - 2019.01.21 at 18h 03m 47s.xml">
+    <history-entry file="OpenChromeBrowser_chromeBrowserTest - 2019.01.21 at 19h 22m 32s.xml">
       <configuration name="OpenChromeBrowser.chromeBrowserTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenChromeBrowser_chromeBrowserTest - 2019.01.21 at 18h 06m 19s.xml">
+    <history-entry file="OpenChromeBrowser_chromeBrowserTest - 2019.01.21 at 19h 32m 00s.xml">
       <configuration name="OpenChromeBrowser.chromeBrowserTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenChromeBrowser_chromeBrowserTest - 2019.01.21 at 18h 07m 10s.xml">
+    <history-entry file="OpenChromeBrowser_chromeBrowserTest - 2019.01.21 at 19h 34m 38s.xml">
       <configuration name="OpenChromeBrowser.chromeBrowserTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenChromeBrowser_chromeBrowserTest - 2019.01.21 at 18h 07m 30s.xml">
-      <configuration name="OpenChromeBrowser.chromeBrowserTest" configurationId="TestNG" />
+    <history-entry file="OpenFirefoxBrowser - 2019.01.21 at 19h 48m 41s.xml">
+      <configuration name="OpenFirefoxBrowser" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenFirefoxBrowser - 2019.01.21 at 19h 51m 41s.xml">
+      <configuration name="OpenFirefoxBrowser" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenFirefoxBrowser_testeBaySearch - 2019.01.21 at 20h 06m 44s.xml">
+      <configuration name="OpenFirefoxBrowser.testeBaySearch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenFirefoxBrowser_testeBaySearch - 2019.01.21 at 20h 19m 38s.xml">
+      <configuration name="OpenFirefoxBrowser.testeBaySearch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenFirefoxBrowser_testeBaySearch - 2019.01.21 at 20h 21m 32s.xml">
+      <configuration name="OpenFirefoxBrowser.testeBaySearch" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -235,7 +269,15 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/A,Nenadykh HOME/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/FirstSeleniumProject/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -245,8 +287,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FirstSeleniumProject/src/test/java/OpenChromeBrowser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state>
+          <caret lean-forward="true" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstSeleniumProject/src/test/java/OpenFirefoxBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
