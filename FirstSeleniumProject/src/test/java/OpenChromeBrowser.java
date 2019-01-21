@@ -23,7 +23,7 @@ public class OpenChromeBrowser {
     }
     @AfterClass
     public void tearDown() throws InterruptedException {
-        Thread.sleep(10500);
-        wd.quit();
+//        Thread.sleep(10500);
+//        wd.quit();
     }
 }
