@@ -20,11 +20,14 @@ public class OpenFirefoxBrowser {
     }
     @Test
     public void testeBaySearch(){
-        wd.get("https://www.ebay.com/");
-        wd.findElement(By.id("gh-ac")).click();
-        wd.findElement(By.id("gh-ac")).clear();
-        wd.findElement(By.id("gh-ac")).sendKeys("glasses");
-        wd.findElement(By.id("gh-btn")).click();
+        wd.get("https://www.wikipedia.org/");
+        wd.findElement(By.id("js-link-box-en")).click();
+        wd.findElement(By.id("pt-login")).click();
+        wd.findElement(By.name("wpPassword")).click();
+        wd.findElement(By.name("wpPassword")).sendKeys("qwerty123");
+        wd.findElement(By.name("wpName")).click();
+        wd.findElement(By.name("wpName")).sendKeys("QA17");
+        wd.findElement(By.id("wpLoginAttempt")).click();
 
     }
     @AfterClass
