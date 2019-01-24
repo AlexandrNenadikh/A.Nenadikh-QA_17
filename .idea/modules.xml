@@ -3,12 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/A,Nenadykh HOME.iml" filepath="$PROJECT_DIR$/.idea/modules/A,Nenadykh HOME.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/A,Nenadykh_HOME.iml" filepath="$PROJECT_DIR$/.idea/modules/A,Nenadykh_HOME.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/A,Nenadykh_HOME_main.iml" filepath="$PROJECT_DIR$/.idea/modules/A,Nenadykh_HOME_main.iml" group="A,Nenadykh_HOME" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/A,Nenadykh_HOME_test.iml" filepath="$PROJECT_DIR$/.idea/modules/A,Nenadykh_HOME_test.iml" group="A,Nenadykh_HOME" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstSeleniumProject.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_main.iml" group="FirstSeleniumProject" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_test.iml" group="FirstSeleniumProject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Second-Selenium-Project.iml" filepath="$PROJECT_DIR$/.idea/modules/Second-Selenium-Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Second-Selenium-Project_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Second-Selenium-Project_main.iml" group="Second-Selenium-Project" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Second-Selenium-Project_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Second-Selenium-Project_test.iml" group="Second-Selenium-Project" />
     </modules>
   </component>
 </project>
