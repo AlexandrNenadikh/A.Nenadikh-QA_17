@@ -2,11 +2,11 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LogoutTest extends  TestBase {
+public class LogoutTest extends TestBase {
     @BeforeMethod
-    public  void  ensurePreconditions(){
-        if(!isUserLoggedIn()){
-            login();
+    public void ensurePreconditions() {
+        if (!applicationManager.isUserLoggedIn()) {
+            applicationManager.login();
         }
     }
 //  public  void  ensurePreconditions(){
@@ -16,11 +16,11 @@ public class LogoutTest extends  TestBase {
 //  }
 
     @Test
-    public void testLogout(){
-        clickOnAvatar();
-        clickOnLogOutButton();
+    public void testLogout() {
+        applicationManager.clickOnAvatar();
+        applicationManager.clickOnLogOutButton();
 
-        Assert.assertFalse(isUserLoggedIn());
+        Assert.assertFalse(applicationManager.isUserLoggedIn());
     }
 
 }

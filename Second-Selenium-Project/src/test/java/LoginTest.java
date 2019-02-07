@@ -4,13 +4,12 @@ public class LoginTest extends  TestBase {
 
     @Test
     public  void testLogIn(){
-        clickOnLoginButton();
-        fillLoginForm();
-        confirmLogin();
+        applicationManager.clickOnLoginButton();
+        applicationManager.fillLoginForm();
+        applicationManager.confirmLogin();
     }
 
 
 }
-
 
 

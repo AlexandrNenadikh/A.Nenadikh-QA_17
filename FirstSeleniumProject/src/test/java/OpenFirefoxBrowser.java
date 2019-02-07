@@ -56,7 +56,7 @@ public class OpenFirefoxBrowser {
 
     @AfterClass
     public void tearDown(){
-//        Thread.sleep(10500);
+//        Thread.sleep(3000);
 //      wd.quit();
     }
 }

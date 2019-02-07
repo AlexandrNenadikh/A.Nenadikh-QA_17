@@ -28,7 +28,7 @@ public class OpenChromeBrowser {
         //wd.findElement(By.name("q")).sendKeys("Рефакторить");
         //wd.findElement(By.name("btnK")).click();
         wd.findElement(By.cssSelector("body")).click();
-        wd.findElement(By.cssSelector("body")).sendKeys(Keys.+"t");
+        wd.findElement(By.cssSelector("body")).sendKeys(Keys."t");
 
         //wd.get("http://vk.com");
 
