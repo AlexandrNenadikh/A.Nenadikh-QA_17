@@ -11,6 +11,12 @@ public class ApplicationManager {
     BoardHelper boardHelper;
     TeamHelper teamHelper;
     WebDriver wd;
+    private String browser;
+
+    public ApplicationManager(String browser) {
+
+        this.browser = browser;
+    }
 
     public void start() {
         wd= new ChromeDriver();
@@ -23,7 +29,7 @@ public class ApplicationManager {
     }
 
     public void stop() {
-        wd.quit();
+        //wd.quit();
     }
 
     public void openSite(String url) {
