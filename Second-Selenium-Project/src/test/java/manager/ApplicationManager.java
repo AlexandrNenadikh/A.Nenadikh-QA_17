@@ -3,6 +3,8 @@ package manager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import tests.TestBase;
 
 import java.util.concurrent.TimeUnit;
 
@@ -10,7 +12,7 @@ public class ApplicationManager {
     SessionHelper sessionHelper;
     BoardHelper boardHelper;
     TeamHelper teamHelper;
-    WebDriver wd;
+    EventFiringWebDriver wd;
     private String browser;
 
     public ApplicationManager(String browser) {
@@ -19,13 +21,15 @@ public class ApplicationManager {
     }
 
     public void start() {
-        wd= new ChromeDriver();
+        wd= new EventFiringWebDriver(new ChromeDriver());
         wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         wd.manage().window().maximize();
         openSite("https://trello.com");
         sessionHelper = new SessionHelper(wd);
         boardHelper = new BoardHelper(wd);
         teamHelper = new TeamHelper(wd);
+
+        wd.register (new TestBase.MyListener());
     }
 
     public void stop() {
